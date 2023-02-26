@@ -14,8 +14,8 @@ class Lasagna
 		    ans
 		end
 		def total_time_in_minutes(layers,actualtime)
-		 	  ans = remaining_minutes_in_oven(actualtime) + preparation_time_in_minutes(layers)
-		 	  puts ans 
+		    ans = remaining_minutes_in_oven(actualtime) + preparation_time_in_minutes(layers)
+		    puts ans 
 		end
 end
 
