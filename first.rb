@@ -1,22 +1,22 @@
 class Lasagna
-	EXPECTED_MINUTES_IN_OVEN = 40
-		def time
-		   puts "the expected oven time in minutes is #{EXPECTED_MINUTES_IN_OVEN}"
-		end
-		def remaining_minutes_in_oven(actualtime)
-		   actualtime=actualtime
-		   EXPECTED_MINUTES_IN_OVEN - @actualtime
-		end
-		def preparation_time_in_minutes(layers)
-		   timeone = 2
-		   layers=layers
-		    ans = @timeone * @layers
-		    ans
-		end
-		def total_time_in_minutes(layers,actualtime)
-		    ans = remaining_minutes_in_oven(actualtime) + preparation_time_in_minutes(layers)
-		    puts ans 
-		end
+  EXPECTED_MINUTES_IN_OVEN = 40
+	def time
+          puts "the expected oven time in minutes is #{EXPECTED_MINUTES_IN_OVEN}"
+	end
+	def remaining_minutes_in_oven(actualtime)
+          actualtime=actualtime
+	  EXPECTED_MINUTES_IN_OVEN - @actualtime
+	end
+	def preparation_time_in_minutes(layers)
+          timeone = 2
+	  layers=layers
+	  ans = timeone * @layers
+          ans
+	end
+	def total_time_in_minutes(layers,actualtime)
+	  ans = remaining_minutes_in_oven(actualtime) + preparation_time_in_minutes(layers)
+	  puts ans 
+	end
 end
 
 lasagna1=Lasagna.new
