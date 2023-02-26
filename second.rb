@@ -1,6 +1,6 @@
 class Account
 	 def interest_rate(amount)
-	 		case amount
+	 		case 
 	 			when (0...1000)
 	 				0.5
 	 			when (1000...5000)
