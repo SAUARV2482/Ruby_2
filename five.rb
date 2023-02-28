@@ -4,7 +4,7 @@ class Main
     num=numbers.to_s
     len=num.length
     arr=[]
-    for i in 0..len
+    for i in 0..len-1
       ans = numbers % 10
       arr.push(ans)
       numbers = numbers / 10
