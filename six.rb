@@ -12,7 +12,7 @@
         arr.push([key.to_s, value])
         i +=1
        }
-      print arr
+      print arr.sort
     end
   end
 
