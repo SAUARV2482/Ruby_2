@@ -1,6 +1,6 @@
 class Main
   # numbers: 123456789
-  def reverse_vowel(numbers)
+  def reverse_num(numbers)
     num=numbers.to_s
     len=num.length
     arr=[]
@@ -21,4 +21,4 @@ class Main
 end
 
 f1=Main.new()
-f1.reverse_vowel(123456789)
+f1.reverse_num(123456789)
