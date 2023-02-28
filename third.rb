@@ -26,5 +26,6 @@ class Reverse
     p string
   end
 end
+
 r1 = Reverse.new
 r1.reverse_vowel
