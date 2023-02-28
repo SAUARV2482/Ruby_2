@@ -16,6 +16,5 @@
     end
   end
 
-
 f1= Main.new()
 f1.hash_to_array
